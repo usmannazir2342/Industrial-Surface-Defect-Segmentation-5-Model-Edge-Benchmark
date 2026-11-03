@@ -1,0 +1,11 @@
+albumentations
+imageio
+onnx
+onnxruntime-gpu
+opencv-python-headless
+pandas
+scikit-learn
+seaborn
+segmentation-models-pytorch
+transformers
+ultralytics
