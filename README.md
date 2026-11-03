@@ -74,8 +74,6 @@ Surface Defect Dataset (1,344 industrial tiles across `Blowhole`, `Break`,
 
 ```text
 Industrial_Surface_Defect_Segmentation_5_Model_Edge_Benchmark.ipynb
-industrial_edge_inspector.py
-THINGTRAX_QUALITY_AGENT_INTEGRATION_GUIDE.md
 figures/
   (generated benchmark charts and inspection demo outputs)
 checkpoints/
@@ -89,11 +87,6 @@ inspection GIFs, model checkpoints, and telemetry files. These generated
 artifacts are intentionally not committed by default because they can be
 large, environment-specific, or reproducible from the notebook.
 
-The production-oriented [industrial_edge_inspector.py](industrial_edge_inspector.py)
-module consumes the exported ONNX model and provides contour overlays,
-15-pixel rejection decisions, SQLite telemetry, and a simulation-safe actuator
-callback. See the [ThingTrax integration guide](THINGTRAX_QUALITY_AGENT_INTEGRATION_GUIDE.md)
-before connecting physical PLC/GPIO hardware.
 
 ## 6. Getting Started
 
